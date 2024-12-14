@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background circle -->
+    <item android:id="@android:id/background">
+        <shape android:shape="ring">
+            <size android:width="10dp" android:height="10dp" />
+            <solid android:color="#E0E0E0" /> <!-- Light gray color -->
+        </shape>
+    </item>
+
+    <!-- Progress ring -->
+    <item android:id="@android:id/progress">
+        <shape android:shape="ring">
+            <size android:width="10dp" android:height="10dp" />
+            <gradient
+                android:type="sweep"
+                android:useLevel="true"
+                android:startColor="#3F51B5"
+            android:endColor="#3F51B5" /> <!-- Progress start color --> <!-- Progress end color -->
+        </shape>
+    </item>
+</layer-list>

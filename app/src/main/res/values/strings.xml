@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HydroTech</string>
+    <string name="project_title">HydroTech</string>
+    <string name="ph_value">PH: %.2f</string> <!-- Display two decimal places -->
+    <string name="humidity_value">Humidity: %.1f%%</string> <!-- Display one decimal place -->
+    <string name="temperature_value">Temperature: %.1f°C</string>
+    <string name="water_sensor_value">Water Sensor: %s</string>
+    <string name="water_pump_status">Water Pump: %s</string>
+    <!-- Relay Low pH Status -->
+    <string name="relay_low_ph_status">Low pH Detected</string>
+
+    <!-- Relay High pH Status -->
+    <string name="relay_high_ph_status">High pH Detected</string>
+    <string name="toggle_relay">Toggle Water Flow</string>
+
+    <string name="relay_status">Relay status: %1$s</string>
+
+</resources>
